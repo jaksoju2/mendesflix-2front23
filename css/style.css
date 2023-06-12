@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 :root{
-    --branco-principal:#fff;
-    --botao-azul:#167bf7;
-    --cor-de-fundo:#00030c;
+    --branco-principal: #fff;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
 }
 body{
     background-color: var(--cor-de-fundo);
-    color: var(--branco-principal)
+    color: var(--branco-principal);
+    font-family: 'Inter', sans-serif;
+
 }
 *{
     margin: 0;
@@ -18,18 +21,30 @@ body{
     display: block;
 }
 .container{
-    height:100vh ;
+    height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
-.assine_botao{
+.assine_botao, .container_botao{
     background-color: var(--botao-azul);
     border-radius: 5px;
     padding: 1em;
     color: var(--branco-principal);
     text-decoration: none;
+    display: block;
 }
-.container_segundario{
+.botao_secundario{
     background-color: transparent;
     border: 2px solid var(--branco-principal);
+}
+.container img{
+    margin: 1em 0 2em 0;
+}
+.container div{
+    margin: 6em;
+    text-align: center;
+}
+.container_aviso{
+    padding: 10px;
+    font-size: 10px;
 }
