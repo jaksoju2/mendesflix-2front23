@@ -32,7 +32,9 @@ body{
     color: var(--branco-principal);
     text-decoration: none;
     display: block;
+    margin: 20px;
 }
+
 .botao_secundario{
     background-color: transparent;
     border: 2px solid var(--branco-principal);
@@ -47,4 +49,16 @@ body{
 .container_aviso{
     padding: 10px;
     font-size: 10px;
+}
+.container.secundario{
+    width: 80%;
+}
+.secundario{
+    align-items: center;
+    margin: 0 auto;
+}
+.descricao_titulo{
+    font-weight: 700;
+    font-size: 38px;
+    color: var(--branco-principal);
 }
